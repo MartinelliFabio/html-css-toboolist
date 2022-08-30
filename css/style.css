@@ -30,7 +30,10 @@ hr {
 }
 
 li {
-    padding: 5px 0;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    list-style: none;
+    vertical-align: middle;
 }
 
 .img-logo {
@@ -44,10 +47,12 @@ li {
 
 .container {
     width: 60%;
-    padding-bottom: 30%;
+    /* padding-bottom: 180px; */
+    height: 770px;
     border-radius: 5px;
     background-color: white;
     margin: 50px auto;
+    position: relative;
 }
 
 .container-button {
@@ -75,7 +80,7 @@ li {
 }
 
 .container-ul {
-    padding: 10px 20px;
+    padding-top: 10px;
 }
 
 .editorial {
@@ -130,4 +135,18 @@ li {
     color: white;
     padding: 7px;
     font-size: 9.5px;
+}
+
+.verified {
+    color: rgb(6, 240, 6);
+    
+}
+
+.false {
+    color: red;
+}
+
+.material-symbols-outlined {
+    vertical-align: middle;
+    padding-right: 10px;
 }
