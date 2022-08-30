@@ -6,6 +6,11 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #F6F8F9;
+}
+
+header {
+    background-color: white;
 }
 
 h1 {
@@ -13,7 +18,40 @@ h1 {
     font-size: 45px;
 }
 
+hr {
+    border-color: #D0D4D8;
+    border-top: 0.5px;
+}
+
 .navbar {
     padding: 20px;
     height: 20%;
+}
+
+.container {
+    width: 60%;
+    padding-bottom: 42%;
+    border-radius: 5px;
+    background-color: white;
+    margin: 20px auto;
+}
+
+.container-button {
+    padding: 15px 50px 10px;
+}
+
+.btn-task {
+    color: white;
+    background-color: #47ADF1;
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+}
+
+.btn-section {
+    color: #D0D4D8;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 8px;
 }
