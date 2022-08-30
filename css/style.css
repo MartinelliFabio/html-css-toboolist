@@ -18,9 +18,18 @@ h1 {
     font-size: 45px;
 }
 
+h2 {
+    display: inline-block;
+    color: #444851;
+}
+
 hr {
     border-color: #D0D4D8;
     border-top: 0.5px;
+}
+
+li {
+    padding: 5px 0;
 }
 
 .navbar {
@@ -30,10 +39,10 @@ hr {
 
 .container {
     width: 60%;
-    padding-bottom: 42%;
+    padding-bottom: 30%;
     border-radius: 5px;
     background-color: white;
-    margin: 20px auto;
+    margin: 50px auto;
 }
 
 .container-button {
@@ -54,4 +63,66 @@ hr {
     border-radius: 5px;
     border: 1px solid;
     padding: 8px;
+}
+
+.container-task {
+    padding: 50px 50px 0;
+}
+
+.container-ul {
+    padding: 10px 20px;
+}
+
+.editorial {
+    background-color: #47ADF1;
+    margin-left: 10px;
+    border-radius: 8px;
+    color: white;
+    padding: 7px;
+    font-size: 9.5px;
+}
+
+.goals {
+    background-color: #9C72E4;
+    margin-left: 10px;
+    border-radius: 8px;
+    color: white;
+    padding: 7px;
+    font-size: 9.5px;
+}
+
+.recruiting {
+    background-color: #64C0A9;
+    margin-left: 10px;
+    border-radius: 8px;
+    color: white;
+    padding: 7px;
+    font-size: 9.5px;
+}
+
+.mobile {
+    background-color: #F29E33;
+    margin-left: 10px;
+    border-radius: 8px;
+    color: white;
+    padding: 7px;
+    font-size: 9.5px;
+}
+
+.website {
+    background-color: #D863A1;
+    margin-left: 10px;
+    border-radius: 8px;
+    color: white;
+    padding: 7px;
+    font-size: 9.5px;
+}
+
+.sales {
+    background-color: #B0C926;
+    margin-left: 10px;
+    border-radius: 8px;
+    color: white;
+    padding: 7px;
+    font-size: 9.5px;
 }
