@@ -1,3 +1,4 @@
+/* ! Sezione CSS Globale */
 * {
     margin: 0;
     padding: 0;
@@ -36,6 +37,7 @@ li {
     vertical-align: middle;
 }
 
+/* ! Sezione CSS di ogni classe */
 .img-logo {
     vertical-align: middle;
 }
@@ -83,6 +85,7 @@ li {
     padding-top: 10px;
 }
 
+/* ! Rispettive classi CSS per i quadrati colorati */
 .editorial {
     background-color: #47ADF1;
     margin-left: 10px;
@@ -137,9 +140,9 @@ li {
     font-size: 9.5px;
 }
 
+/* ! Classi CSS per il colore e l'allineamento del check & il cancel */
 .verified {
     color: rgb(6, 240, 6);
-    
 }
 
 .false {
