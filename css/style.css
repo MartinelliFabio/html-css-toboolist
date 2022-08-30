@@ -16,6 +16,7 @@ header {
 h1 {
     display: inline-block;
     font-size: 45px;
+    vertical-align: middle;
 }
 
 h2 {
@@ -30,6 +31,10 @@ hr {
 
 li {
     padding: 5px 0;
+}
+
+.img-logo {
+    vertical-align: middle;
 }
 
 .navbar {
